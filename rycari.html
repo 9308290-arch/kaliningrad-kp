@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>Рыцари Балтики</title>
+<title>Рыцари и Королевы Балтики</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Oranienbaum&family=Golos+Text:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
@@ -233,7 +233,11 @@ body{padding-bottom:0}
 .pack-tail{margin-top:20px;font-family:var(--f-display);font-size:var(--s2);color:var(--amber);max-width:40ch}
 .hotel-body{align-content:center}
 /* шлем в заголовке */
-.hero h1 .helm{height:.82em;width:auto;vertical-align:-.08em;display:inline-block}
+.hero h1 .helm,.hero h1 .crown{height:.82em;width:auto;vertical-align:-.08em;display:inline-block}
+.hero h1 .nw{white-space:nowrap}
+.crown .body{fill:var(--hero-ink)}
+.crown .gem{fill:var(--amber-glow)}
+.crown .jewel{fill:var(--hero-top)}
 .helm .shell{fill:var(--hero-ink)}
 .helm .plume{fill:var(--amber-glow)}
 .helm .slit,.helm .hole{fill:var(--hero-top)}
@@ -265,7 +269,7 @@ body{padding-bottom:0}
 <header class="hero">
   <div class="wrap hero-inner">
     <p class="eyebrow">Калининград · 8–11 октября 2026</p>
-    <h1>Рыцари Балтики&nbsp;<svg class="helm" viewBox="0 0 64 64" role="img" aria-label="шлем рыцаря"><path class="plume" d="M33 13 C33 5 43 1 53 4 C47 6 45 10 46 16 C42 12 37 12 33 13 Z"/><path class="shell" d="M15 26 Q15 11 32 11 Q49 11 49 26 V49 Q49 57 41 59 H23 Q15 57 15 49 Z"/><rect class="slit" x="18" y="29" width="28" height="4.5" rx="1.5"/><rect class="ridge" x="30.8" y="12" width="2.4" height="17"/><rect class="ridge" x="30.8" y="33.5" width="2.4" height="24"/><circle class="hole" cx="24" cy="42" r="1.7"/><circle class="hole" cx="24" cy="49" r="1.7"/><circle class="hole" cx="40" cy="42" r="1.7"/><circle class="hole" cx="40" cy="49" r="1.7"/></svg></h1>
+    <h1><span class="nw">Рыцари&nbsp;<svg class="helm" viewBox="0 0 64 64" role="img" aria-label="шлем рыцаря"><path class="plume" d="M33 13 C33 5 43 1 53 4 C47 6 45 10 46 16 C42 12 37 12 33 13 Z"/><path class="shell" d="M15 26 Q15 11 32 11 Q49 11 49 26 V49 Q49 57 41 59 H23 Q15 57 15 49 Z"/><rect class="slit" x="18" y="29" width="28" height="4.5" rx="1.5"/><rect class="ridge" x="30.8" y="12" width="2.4" height="17"/><rect class="ridge" x="30.8" y="33.5" width="2.4" height="24"/><circle class="hole" cx="24" cy="42" r="1.7"/><circle class="hole" cx="24" cy="49" r="1.7"/><circle class="hole" cx="40" cy="42" r="1.7"/><circle class="hole" cx="40" cy="49" r="1.7"/></svg></span> и <span class="nw">Королевы&nbsp;<svg class="crown" viewBox="0 0 64 64" role="img" aria-label="корона"><path class="body" d="M8 22 L20 36 L32 14 L44 36 L56 22 L51 48 H13 Z"/><rect class="body" x="12" y="50" width="40" height="7" rx="2"/><circle class="gem" cx="8" cy="20" r="4"/><circle class="gem" cx="32" cy="12" r="4.5"/><circle class="gem" cx="56" cy="20" r="4"/><circle class="jewel" cx="22" cy="53.5" r="2"/><circle class="jewel" cx="32" cy="53.5" r="2.2"/><circle class="jewel" cx="42" cy="53.5" r="2"/></svg></span> Балтики</h1>
     <p class="subtitle">Выезд ключевых сотрудников Прайм</p>
     <p class="lede">Три ночи у Балтики: дюны Куршской косы, старый Кёнигсберг и ночь в рыцарском замке с конно-огненным шоу. Здесь всё, что нужно знать перед поездкой.</p>
   </div>
